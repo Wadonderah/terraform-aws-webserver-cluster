@@ -15,7 +15,7 @@ variable "instance_type" {
 variable "ami_id" {
   description = "AMI ID to use for the web server instances. Defaults to a recent Amazon Linux 2 AMI. Override this for custom hardened AMIs."
   type        = string
-  default     = "ami-0c55b159cbfafe1f0" # Amazon Linux 2 us-east-1 — update per region
+  default     = "ami-02dfbd4ff395f2a1b" # Amazon Linux 2 us-east-1
 }
 
 variable "min_size" {
